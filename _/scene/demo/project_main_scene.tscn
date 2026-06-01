@@ -220,7 +220,6 @@ transform = Transform3D(1, 0, 0, 0, 0.70710653, 0.70710653, 0, -0.70710653, 0.70
 y_offset = 0.0
 distance = 4.0
 show_laser = 1
-click_on_hold = true
 hold_time = 0.4
 color = Color(0.77808726, 0.13522485, 0.2605957, 1)
 size = Vector2(0.05, 0.05)
