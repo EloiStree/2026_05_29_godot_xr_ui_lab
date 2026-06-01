@@ -14,7 +14,8 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="Godot XR Tools Demo"
+config/name="Godot XR UI IDE"
+config/description="Demonstration of how you can use Godot as a IDE to make moddable game and how UI can be used."
 run/main_scene="uid://dkr1jkk3jerux"
 config/features=PackedStringArray("4.6")
 config/icon="res://icon.png"
