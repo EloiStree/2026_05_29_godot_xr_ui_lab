@@ -17,6 +17,7 @@ func _process(delta: float) -> void:
 	if xr_controller:
 		var is_on:=xr_controller.get_float("trigger")>0.1
 		var changed:= is_trigger_on!=is_on
+		is_trigger_on= is_on
 		if changed:
 			on_trigger_changed_state.emit(is_on)
 			if is_on:

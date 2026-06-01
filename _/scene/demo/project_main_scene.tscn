@@ -4,7 +4,6 @@
 [ext_resource type="Script" uid="uid://dlriiyt84wd6" path="res://scenes/main_menu/main_menu_level.gd" id="2_cfv33"]
 [ext_resource type="PackedScene" uid="uid://b228p8k6sonve" path="res://addons/godot-xr-tools/player/fade/fade_collision.tscn" id="3_ntthg"]
 [ext_resource type="PackedScene" uid="uid://do1wif8rpqtwj" path="res://addons/godot-xr-tools/functions/function_gaze_pointer.tscn" id="4_0goug"]
-[ext_resource type="PackedScene" uid="uid://42xbeno6pt3y" path="res://addons/godot-xr-tools/desktop-support/function_desktop_pointer.tscn" id="5_jlekb"]
 [ext_resource type="PackedScene" uid="uid://cc6ngdqie8o8c" path="res://addons/godot-xr-tools/effects/vignette.tscn" id="6_skq7r"]
 [ext_resource type="PackedScene" uid="uid://bq86r4yll8po" path="res://addons/godot-xr-tools/hands/scenes/lowpoly/left_fullglove_low.tscn" id="7_qlncc"]
 [ext_resource type="PackedScene" uid="uid://bjcxf427un2wp" path="res://addons/godot-xr-tools/player/poke/poke.tscn" id="8_8dghy"]
@@ -15,84 +14,78 @@
 [ext_resource type="Material" uid="uid://ds2dpvbpht0ea" path="res://addons/godot-xr-tools/hands/materials/labglove.tres" id="14_xeex4"]
 [ext_resource type="PackedScene" uid="uid://deyk5frilshws" path="res://assets/meshes/control_pad/control_pad_location_right.tscn" id="16_88jvu"]
 [ext_resource type="Script" uid="uid://kbcxt0r1ol00" path="res://_/scene/script/listen_to_controller_trigger.gd" id="17_1o45p"]
-[ext_resource type="PackedScene" uid="uid://diyu06cw06syv" path="res://addons/godot-xr-tools/player/player_body.tscn" id="17_jk3fe"]
 [ext_resource type="PackedScene" uid="uid://ct3p5sgwvkmva" path="res://assets/meshes/control_pad/control_pad.tscn" id="18_xoqrv"]
-[ext_resource type="PackedScene" uid="uid://3a6wjr3a13vd" path="res://assets/meshes/teleport/teleport.tscn" id="26_1y8pq"]
-[ext_resource type="Texture2D" uid="uid://8jxrr3gqnxck" path="res://scenes/basic_movement_demo/basic movement demo.png" id="27_pgvdi"]
-[ext_resource type="Texture2D" uid="uid://rg2en122cmwa" path="res://scenes/audio_demo/audio_demo.png" id="28_w70kr"]
-[ext_resource type="Texture2D" uid="uid://c8qc5ja60n3u8" path="res://scenes/teleport_demo/teleport movement demo.png" id="29_vh67g"]
-[ext_resource type="Texture2D" uid="uid://dhnude8u8a26t" path="res://scenes/world_grab_demo/world_grab_demo.png" id="30_0cicm"]
-[ext_resource type="Texture2D" uid="uid://d3epm85d4s28f" path="res://scenes/climbing_gliding_demo/climbing_gliding_demo.png" id="31_b0koo"]
-[ext_resource type="Texture2D" uid="uid://bwkm0t73t80cs" path="res://scenes/grappling_demo/grappling_demo.png" id="32_f7v8r"]
-[ext_resource type="Texture2D" uid="uid://bv0r0klv2u7tl" path="res://scenes/interactables_demo/interactables_demo.png" id="33_0l1m4"]
-[ext_resource type="Texture2D" uid="uid://bh5j2q7vpmr0b" path="res://scenes/pointer_demo/pointer_demo.png" id="34_fnnrr"]
-[ext_resource type="Texture2D" uid="uid://ny4n43p3e3du" path="res://scenes/pickable_demo/pickable_demo.png" id="35_p2xf4"]
-[ext_resource type="Texture2D" uid="uid://bbe7o7pdq38m2" path="res://scenes/poke_demo/poke_demo.png" id="36_v636t"]
-[ext_resource type="Texture2D" uid="uid://6wveqdhqbg5b" path="res://scenes/rumble_demo/rumble demo.png" id="37_kno0m"]
-[ext_resource type="Texture2D" uid="uid://v4807nasx1dc" path="res://scenes/sprinting_demo/sprinting_demo.png" id="38_wda2q"]
-[ext_resource type="Texture2D" uid="uid://cr1l4g7btdyht" path="res://scenes/origin_gravity_demo/origin_gravity_demo.png" id="39_8q2ql"]
-[ext_resource type="Texture2D" uid="uid://dhd30j0xpcxoi" path="res://scenes/sphere_world_demo/sphere_world_demo.png" id="40_ktluw"]
+[ext_resource type="PackedScene" uid="uid://clujaf3u776a3" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.tscn" id="34_kox4c"]
+[ext_resource type="PackedScene" uid="uid://byjrt7xivaswl" path="res://addons/2026_05_29_gdp_xr_ui_lab/core/run_code_edit_with_target/prefab/prefab_ui_lab_run_code_edit_with_target_node.tscn" id="35_gtdnq"]
+[ext_resource type="Script" uid="uid://dpg6opdbu6o88" path="res://addons/2026_05_29_gdp_xr_ui_lab/core/mini_car/script/ui_lab_if_red_teleport_to.gd" id="36_qajpu"]
+[ext_resource type="Texture2D" uid="uid://doc56d62vhfe7" path="res://addons/2026_05_29_gdp_xr_ui_lab/core/quad_map/map/Map.png" id="37_k0806"]
+[ext_resource type="Script" uid="uid://codjx4ebhy11r" path="res://addons/2026_05_29_gdp_xr_ui_lab/core/quad_map/ui_lab_quad_node_to_color.gd" id="38_2m1sh"]
+[ext_resource type="PackedScene" uid="uid://dm2s0fx0slyp4" path="res://addons/2026_05_29_gdp_xr_ui_lab/core/mini_car/scene/prefab/prefab_two_wheels_car.tscn" id="39_1abmh"]
+[ext_resource type="Script" uid="uid://bls3ss8xr7a4y" path="res://addons/2026_05_29_gdp_xr_ui_lab/_/unstored/ui_lab_main_target_in_scene.gd" id="40_m764b"]
+[ext_resource type="PackedScene" uid="uid://efcn16tp7apo" path="res://addons/2026_05_29_gdp_xr_ui_lab/core/short_128x64/scene/prefab_short_128x64.tscn" id="41_2qhqx"]
 [ext_resource type="PackedScene" uid="uid://3bsyhd7ehoa1" path="res://scenes/main_menu/objects/settings_ui.tscn" id="41_66wyn"]
+[ext_resource type="Script" uid="uid://ticbi6uubof4" path="res://addons/2026_05_29_gdp_xr_ui_lab/core/xr/ui_lab_xr_setup.gd" id="42_s0ih5"]
+[ext_resource type="Script" uid="uid://j0ypqbayu7qk" path="res://addons/2026_05_29_gdp_xr_ui_lab/core/run_code_edit_with_target/script/ui_lab_web_page_downloader.gd" id="43_ewoay"]
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_sw4x2"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_tbo83"]
 animation = &"Grip"
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_nfbcv"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_a6uji"]
 animation = &"Grip"
 
-[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_7yppt"]
+[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_gyiri"]
 filter_enabled = true
 filters = ["Armature/Skeleton3D:Little_Distal_L", "Armature/Skeleton3D:Little_Intermediate_L", "Armature/Skeleton3D:Little_Metacarpal_L", "Armature/Skeleton3D:Little_Proximal_L", "Armature/Skeleton3D:Middle_Distal_L", "Armature/Skeleton3D:Middle_Intermediate_L", "Armature/Skeleton3D:Middle_Metacarpal_L", "Armature/Skeleton3D:Middle_Proximal_L", "Armature/Skeleton3D:Ring_Distal_L", "Armature/Skeleton3D:Ring_Intermediate_L", "Armature/Skeleton3D:Ring_Metacarpal_L", "Armature/Skeleton3D:Ring_Proximal_L", "Armature/Skeleton3D:Thumb_Distal_L", "Armature/Skeleton3D:Thumb_Metacarpal_L", "Armature/Skeleton3D:Thumb_Proximal_L", "Armature/Skeleton:Little_Distal_L", "Armature/Skeleton:Little_Intermediate_L", "Armature/Skeleton:Little_Proximal_L", "Armature/Skeleton:Middle_Distal_L", "Armature/Skeleton:Middle_Intermediate_L", "Armature/Skeleton:Middle_Proximal_L", "Armature/Skeleton:Ring_Distal_L", "Armature/Skeleton:Ring_Intermediate_L", "Armature/Skeleton:Ring_Proximal_L", "Armature/Skeleton:Thumb_Distal_L", "Armature/Skeleton:Thumb_Proximal_L"]
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_4ubw7"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_h74vx"]
 animation = &"Grip 5"
 
-[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_sgahj"]
+[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_ep3cc"]
 filter_enabled = true
 filters = ["Armature/Skeleton3D:Index_Distal_L", "Armature/Skeleton3D:Index_Intermediate_L", "Armature/Skeleton3D:Index_Metacarpal_L", "Armature/Skeleton3D:Index_Proximal_L", "Armature/Skeleton:Index_Distal_L", "Armature/Skeleton:Index_Intermediate_L", "Armature/Skeleton:Index_Proximal_L"]
 
-[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_3g3ss"]
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_f4r7d"]
 graph_offset = Vector2(-536, 11)
-nodes/ClosedHand1/node = SubResource("AnimationNodeAnimation_sw4x2")
+nodes/ClosedHand1/node = SubResource("AnimationNodeAnimation_tbo83")
 nodes/ClosedHand1/position = Vector2(-600, 300)
-nodes/ClosedHand2/node = SubResource("AnimationNodeAnimation_nfbcv")
+nodes/ClosedHand2/node = SubResource("AnimationNodeAnimation_a6uji")
 nodes/ClosedHand2/position = Vector2(-360, 300)
-nodes/Grip/node = SubResource("AnimationNodeBlend2_7yppt")
+nodes/Grip/node = SubResource("AnimationNodeBlend2_gyiri")
 nodes/Grip/position = Vector2(0, 20)
-nodes/OpenHand/node = SubResource("AnimationNodeAnimation_4ubw7")
+nodes/OpenHand/node = SubResource("AnimationNodeAnimation_h74vx")
 nodes/OpenHand/position = Vector2(-600, 100)
-nodes/Trigger/node = SubResource("AnimationNodeBlend2_sgahj")
+nodes/Trigger/node = SubResource("AnimationNodeBlend2_ep3cc")
 nodes/Trigger/position = Vector2(-360, 20)
 node_connections = [&"output", 0, &"Grip", &"Grip", 0, &"Trigger", &"Grip", 1, &"ClosedHand2", &"Trigger", 0, &"OpenHand", &"Trigger", 1, &"ClosedHand1"]
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_mmbol"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_enr3y"]
 animation = &"Grip"
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_kox4c"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0w2ba"]
 animation = &"Grip"
 
-[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_gtdnq"]
+[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_u6ais"]
 filter_enabled = true
 filters = ["Armature/Skeleton3D:Little_Distal_R", "Armature/Skeleton3D:Little_Intermediate_R", "Armature/Skeleton3D:Little_Metacarpal_R", "Armature/Skeleton3D:Little_Proximal_R", "Armature/Skeleton3D:Middle_Distal_R", "Armature/Skeleton3D:Middle_Intermediate_R", "Armature/Skeleton3D:Middle_Metacarpal_R", "Armature/Skeleton3D:Middle_Proximal_R", "Armature/Skeleton3D:Ring_Distal_R", "Armature/Skeleton3D:Ring_Intermediate_R", "Armature/Skeleton3D:Ring_Metacarpal_R", "Armature/Skeleton3D:Ring_Proximal_R", "Armature/Skeleton3D:Thumb_Distal_R", "Armature/Skeleton3D:Thumb_Metacarpal_R", "Armature/Skeleton3D:Thumb_Proximal_R", "Armature/Skeleton:Little_Distal_R", "Armature/Skeleton:Little_Intermediate_R", "Armature/Skeleton:Little_Proximal_R", "Armature/Skeleton:Middle_Distal_R", "Armature/Skeleton:Middle_Intermediate_R", "Armature/Skeleton:Middle_Proximal_R", "Armature/Skeleton:Ring_Distal_R", "Armature/Skeleton:Ring_Intermediate_R", "Armature/Skeleton:Ring_Proximal_R", "Armature/Skeleton:Thumb_Distal_R", "Armature/Skeleton:Thumb_Proximal_R"]
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_qajpu"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_1o45p"]
 animation = &"Grip 5"
 
-[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_k0806"]
+[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_sw4x2"]
 filter_enabled = true
 filters = ["Armature/Skeleton3D:Index_Distal_R", "Armature/Skeleton3D:Index_Intermediate_R", "Armature/Skeleton3D:Index_Metacarpal_R", "Armature/Skeleton3D:Index_Proximal_R", "Armature/Skeleton:Index_Distal_R", "Armature/Skeleton:Index_Intermediate_R", "Armature/Skeleton:Index_Proximal_R"]
 
-[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_2m1sh"]
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_nfbcv"]
 graph_offset = Vector2(-552.664, 107.301)
-nodes/ClosedHand1/node = SubResource("AnimationNodeAnimation_mmbol")
+nodes/ClosedHand1/node = SubResource("AnimationNodeAnimation_enr3y")
 nodes/ClosedHand1/position = Vector2(-600, 300)
-nodes/ClosedHand2/node = SubResource("AnimationNodeAnimation_kox4c")
+nodes/ClosedHand2/node = SubResource("AnimationNodeAnimation_0w2ba")
 nodes/ClosedHand2/position = Vector2(-360, 300)
-nodes/Grip/node = SubResource("AnimationNodeBlend2_gtdnq")
+nodes/Grip/node = SubResource("AnimationNodeBlend2_u6ais")
 nodes/Grip/position = Vector2(0, 40)
-nodes/OpenHand/node = SubResource("AnimationNodeAnimation_qajpu")
+nodes/OpenHand/node = SubResource("AnimationNodeAnimation_1o45p")
 nodes/OpenHand/position = Vector2(-600, 100)
-nodes/Trigger/node = SubResource("AnimationNodeBlend2_k0806")
+nodes/Trigger/node = SubResource("AnimationNodeBlend2_sw4x2")
 nodes/Trigger/position = Vector2(-360, 40)
 node_connections = [&"output", 0, &"Grip", &"Grip", 0, &"Trigger", &"Grip", 1, &"ClosedHand2", &"Trigger", 0, &"OpenHand", &"Trigger", 1, &"ClosedHand1"]
 
@@ -100,17 +93,57 @@ node_connections = [&"output", 0, &"Grip", &"Grip", 0, &"Trigger", &"Grip", 1, &
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_u6ais"]
 
+[sub_resource type="QuadMesh" id="QuadMesh_7yppt"]
+resource_local_to_scene = true
+size = Vector2(1, 2)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_4ubw7"]
+viewport_path = NodePath("Arena/Viewport2Din3D/Viewport")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sgahj"]
+transparency = 1
+cull_mode = 2
+albedo_texture = SubResource("ViewportTexture_4ubw7")
+texture_filter = 1
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3g3ss"]
+resource_local_to_scene = true
+size = Vector3(1, 2, 0.02)
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_vpwht"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y7xpi"]
+size = Vector3(2.991455, 1, 0.5155029)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_4lxet"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8kso1"]
+albedo_texture = ExtResource("37_k0806")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mmbol"]
+resource_local_to_scene = true
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_vuonw"]
+viewport_path = NodePath("TwoWheelsCar/SubViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kox4c"]
+resource_local_to_scene = true
+
 [node name="MainMenuLevel" unique_id=145419139 instance=ExtResource("1_7tsv3")]
 script = ExtResource("2_cfv33")
 
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="0" unique_id=437786791]
+transform = Transform3D(1, 0, 0, 0, 0.565255, 0.82491624, 0, -0.82491624, 0.565255, 0, 3.4349961, 2.1452997)
+
+[node name="XROrigin3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.1452997)
+
 [node name="FadeCollision" parent="XROrigin3D/XRCamera3D" index="0" unique_id=779756273 instance=ExtResource("3_ntthg")]
 
-[node name="FunctionDesktopPointer" parent="XROrigin3D/XRCamera3D" index="1" unique_id=1163050003 instance=ExtResource("5_jlekb")]
-
-[node name="Vignette" parent="XROrigin3D/XRCamera3D" index="2" unique_id=1992218638 instance=ExtResource("6_skq7r")]
+[node name="Vignette" parent="XROrigin3D/XRCamera3D" index="1" unique_id=1992218638 instance=ExtResource("6_skq7r")]
 auto_inner_radius = 0.5
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="XROrigin3D/XRCamera3D" index="3" unique_id=437786791]
+[node name="AudioListener3D" type="AudioListener3D" parent="XROrigin3D/XRCamera3D" index="2" unique_id=701360265]
 
 [node name="LeftHand" parent="XROrigin3D" index="1"]
 transform = Transform3D(1, 0, 0, 0, 0.707107, -0.707107, 0, 0.707107, 0.707107, -0.5, 1, -0.5)
@@ -152,7 +185,7 @@ bone_idx = 9
 transform = Transform3D(0.999999, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 
 [node name="AnimationTree" parent="XROrigin3D/LeftHand/LeftHand" index="1"]
-tree_root = SubResource("AnimationNodeBlendTree_3g3ss")
+tree_root = SubResource("AnimationNodeBlendTree_f4r7d")
 
 [node name="ControlPadLocationLeft" parent="XROrigin3D/LeftHand" index="1" unique_id=2004396779 instance=ExtResource("9_wnahg")]
 transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 0, 0)
@@ -205,7 +238,7 @@ bone_idx = 9
 transform = Transform3D(0.999999, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 
 [node name="AnimationTree" parent="XROrigin3D/RightHand/RightHand" index="1"]
-tree_root = SubResource("AnimationNodeBlendTree_2m1sh")
+tree_root = SubResource("AnimationNodeBlendTree_nfbcv")
 
 [node name="FunctionPoseDetector" parent="XROrigin3D/RightHand" index="1" unique_id=427500015 instance=ExtResource("10_083ft")]
 transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 0, 0)
@@ -220,7 +253,8 @@ transform = Transform3D(1, 0, 0, 0, 0.70710653, 0.70710653, 0, -0.70710653, 0.70
 y_offset = 0.0
 distance = 4.0
 show_laser = 1
-hold_time = 0.4
+target_radius = 0.01
+hold_time = 0.1
 color = Color(0.77808726, 0.13522485, 0.2605957, 1)
 size = Vector2(0.05, 0.05)
 
@@ -228,86 +262,12 @@ size = Vector2(0.05, 0.05)
 script = ExtResource("17_1o45p")
 metadata/_custom_type_script = "uid://kbcxt0r1ol00"
 
-[node name="PlayerBody" parent="XROrigin3D" index="3" unique_id=1386227110 instance=ExtResource("17_jk3fe")]
-
-[node name="ControlPad" parent="XROrigin3D" index="4" unique_id=736928207 instance=ExtResource("18_xoqrv")]
+[node name="ControlPad" parent="XROrigin3D" index="3" unique_id=736928207 instance=ExtResource("18_xoqrv")]
 visible = true
-
-[node name="Demos" type="Node3D" parent="." index="1" unique_id=482953513]
-visible = false
-
-[node name="ToBasicMovementDemo" parent="Demos" index="0" unique_id=94235054 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10)
-scene = "res://scenes/basic_movement_demo/basic_movement_demo.tscn"
-title = ExtResource("27_pgvdi")
-
-[node name="ToAudioDemo" parent="Demos" index="1" unique_id=2089114507 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(0.90096885, 0, 0.43388376, 0, 1, 0, -0.43388376, 0, 0.90096885, -4.3388376, 0, -9.009688)
-scene = "res://scenes/audio_demo/audio_demo.tscn"
-title = ExtResource("28_w70kr")
-
-[node name="ToTeleportDemo" parent="Demos" index="2" unique_id=993038630 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(0.6234898, 0, 0.7818315, 0, 1, 0, -0.7818315, 0, 0.6234898, -7.818315, 0, -6.234898)
-scene = "res://scenes/teleport_demo/teleport_demo.tscn"
-title = ExtResource("29_vh67g")
-
-[node name="ToWorldGrabDemo" parent="Demos" index="3" unique_id=1076121364 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(0.22252098, 0, 0.9749279, 0, 1, 0, -0.9749279, 0, 0.22252098, -9.749279, 0, -2.2252097)
-scene = "res://scenes/world_grab_demo/world_grab_demo.tscn"
-title = ExtResource("30_0cicm")
-
-[node name="ToClimbingGlidingDemo" parent="Demos" index="4" unique_id=304095124 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(-0.22252095, 0, 0.9749279, 0, 1, 0, -0.9749279, 0, -0.22252095, -9.749279, 0, 2.2252095)
-scene = "res://scenes/climbing_gliding_demo/climbing_gliding_demo.tscn"
-title = ExtResource("31_b0koo")
-
-[node name="ToGrapplingDemo" parent="Demos" index="5" unique_id=1137890459 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(-0.6234898, 0, 0.7818315, 0, 1, 0, -0.7818315, 0, -0.6234898, -7.818315, 0, 6.234898)
-scene = "res://scenes/grappling_demo/grappling_demo.tscn"
-title = ExtResource("32_f7v8r")
-
-[node name="ToInteractablesDemo" parent="Demos" index="6" unique_id=978567749 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(-0.90096885, 0, 0.43388382, 0, 1, 0, -0.43388382, 0, -0.90096885, -4.338838, 0, 9.009688)
-scene = "res://scenes/interactables_demo/interactables_demo.tscn"
-title = ExtResource("33_0l1m4")
-
-[node name="ToPointerDemo" parent="Demos" index="7" unique_id=1385908752 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 8.742278e-07, 0, 10)
-scene = "res://scenes/pointer_demo/pointer_demo.tscn"
-title = ExtResource("34_fnnrr")
-
-[node name="ToPickableDemo" parent="Demos" index="8" unique_id=1628654002 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(-0.90096885, 0, -0.43388376, 0, 1, 0, 0.43388376, 0, -0.90096885, 4.3388376, 0, 9.009688)
-scene = "res://scenes/pickable_demo/pickable_demo.tscn"
-title = ExtResource("35_p2xf4")
-
-[node name="ToPokeDemo" parent="Demos" index="9" unique_id=1397747292 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(-0.6234896, 0, -0.7818316, 0, 1, 0, 0.7818316, 0, -0.6234896, 7.8183165, 0, 6.234896)
-scene = "res://scenes/poke_demo/poke_demo.tscn"
-title = ExtResource("36_v636t")
-
-[node name="ToRumbleDemo" parent="Demos" index="10" unique_id=4331736 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(-0.222521, 0, -0.9749279, 0, 1, 0, 0.9749279, 0, -0.222521, 9.749279, 0, 2.2252102)
-scene = "res://scenes/rumble_demo/rumble_demo.tscn"
-title = ExtResource("37_kno0m")
-
-[node name="ToSprintDemo" parent="Demos" index="11" unique_id=1322315305 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(0.22252104, 0, -0.9749279, 0, 1, 0, 0.9749279, 0, 0.22252104, 9.749279, 0, -2.2252104)
-scene = "res://scenes/sprinting_demo/sprinting_demo.tscn"
-title = ExtResource("38_wda2q")
-
-[node name="ToOriginGravityDemo" parent="Demos" index="12" unique_id=288410390 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(0.6234897, 0, -0.7818316, 0, 1, 0, 0.7818316, 0, 0.6234897, 7.8183165, 0, -6.2348967)
-scene = "res://scenes/origin_gravity_demo/origin_gravity_demo.tscn"
-title = ExtResource("39_8q2ql")
-
-[node name="ToSphereWorldDemo" parent="Demos" index="13" unique_id=1652639293 instance=ExtResource("26_1y8pq")]
-transform = Transform3D(0.90096885, 0, -0.43388376, 0, 1, 0, 0.43388376, 0, 0.90096885, 4.3388376, 0, -9.009688)
-scene = "res://scenes/sphere_world_demo/sphere_world_demo.tscn"
-title = ExtResource("40_ktluw")
 
 [node name="SettingsUI" parent="." index="2" unique_id=523797370 instance=ExtResource("41_66wyn")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.5)
+visible = false
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." index="3" unique_id=2051214207]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.80312026, 0, -3.883264)
@@ -318,13 +278,232 @@ mesh = SubResource("BoxMesh_u6ais")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=97382306]
 shape = SubResource("WorldBoundaryShape3D_u6ais")
 
+[node name="Arena" type="Node3D" parent="." index="5" unique_id=973072718]
+
+[node name="Viewport2Din3D" parent="Arena" index="0" unique_id=258432342 instance=ExtResource("34_kox4c")]
+transform = Transform3D(0.66326034, 0, 0.74838877, 0, 1, 0, -0.74838877, 0, 0.66326034, -0.8897444, 1.2922257, 1.1074207)
+screen_size = Vector2(1, 2)
+viewport_size = Vector2(450, 800)
+
+[node name="Viewport" parent="Arena/Viewport2Din3D" index="0" unique_id=446421192]
+size = Vector2i(450, 800)
+
+[node name="RunCodeEditWithTarget" parent="Arena/Viewport2Din3D/Viewport" index="0" unique_id=805216708 node_paths=PackedStringArray("_target_node") instance=ExtResource("35_gtdnq")]
+_target_node = NodePath("../../../TwoWheelsCar")
+
+[node name="Screen" parent="Arena/Viewport2Din3D" index="1" unique_id=946271366]
+mesh = SubResource("QuadMesh_7yppt")
+surface_material_override/0 = SubResource("StandardMaterial3D_sgahj")
+
+[node name="StaticBody3D" parent="Arena/Viewport2Din3D" index="2" unique_id=229648905]
+screen_size = Vector2(1, 2)
+viewport_size = Vector2(450, 800)
+
+[node name="CollisionShape3D" parent="Arena/Viewport2Din3D/StaticBody3D" index="0" unique_id=1440542046]
+shape = SubResource("BoxShape3D_3g3ss")
+
+[node name="AnchorInScene" type="Node3D" parent="Arena" index="1" unique_id=21004337]
+
+[node name="Start" type="Node3D" parent="Arena/AnchorInScene" index="0" unique_id=1167821942]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14572263, 0)
+
+[node name="Code" type="Node" parent="Arena" index="2" unique_id=93180342]
+
+[node name="UiLabIfRedTeleportTo" type="Node" parent="Arena/Code" index="0" unique_id=2000032861]
+script = ExtResource("36_qajpu")
+metadata/_custom_type_script = "uid://dpg6opdbu6o88"
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Arena" index="3" unique_id=359178762]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Arena/StaticBody3D" index="0" unique_id=1369871396]
+shape = SubResource("WorldBoundaryShape3D_vpwht")
+
+[node name="Walls" type="Node3D" parent="Arena" index="4" unique_id=729492325]
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="Arena/Walls" index="0" unique_id=565959129]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.22020149, -1.0134853)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Arena/Walls/StaticBody3D2" index="0" unique_id=1252147480]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0040283203, 0, -0.24224854)
+shape = SubResource("BoxShape3D_y7xpi")
+
+[node name="StaticBody3D3" type="StaticBody3D" parent="Arena/Walls" index="1" unique_id=1802682719]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 1.7680468e-07, -0.22020149, 1.0089244)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Arena/Walls/StaticBody3D3" index="0" unique_id=1115669867]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0040283203, 0, -0.24224854)
+shape = SubResource("BoxShape3D_y7xpi")
+
+[node name="StaticBody3D4" type="StaticBody3D" parent="Arena/Walls" index="2" unique_id=693549940]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1.011205, -0.22020149, -0.002280518)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Arena/Walls/StaticBody3D4" index="0" unique_id=1090377958]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0040283203, 0, -0.24224854)
+shape = SubResource("BoxShape3D_y7xpi")
+
+[node name="StaticBody3D5" type="StaticBody3D" parent="Arena/Walls" index="3" unique_id=549893982]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -1.0112047, -0.22020149, -0.0022804295)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Arena/Walls/StaticBody3D5" index="0" unique_id=1734513645]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0040283203, 0, -0.24224854)
+shape = SubResource("BoxShape3D_y7xpi")
+
+[node name="MeshMap" type="MeshInstance3D" parent="Arena" index="5" unique_id=743191939]
+mesh = SubResource("PlaneMesh_4lxet")
+surface_material_override/0 = SubResource("StandardMaterial3D_8kso1")
+
+[node name="DownLeft" type="Node3D" parent="Arena/MeshMap" index="0" unique_id=1577830248]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1)
+
+[node name="TopRight" type="Node3D" parent="Arena/MeshMap" index="1" unique_id=1350008583]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+
+[node name="UiLabQuadNodeToSurfaceColor" type="Node" parent="Arena/MeshMap" index="2" unique_id=447818267 node_paths=PackedStringArray("mesh_instance_as_quad", "down_left_anchor", "top_right_anchor")]
+script = ExtResource("38_2m1sh")
+mesh_instance_as_quad = NodePath("..")
+down_left_anchor = NodePath("../DownLeft")
+top_right_anchor = NodePath("../TopRight")
+
+[node name="TwoWheelsCar" parent="Arena" index="6" unique_id=408629191 instance=ExtResource("39_1abmh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0648976, 0.022816386, -0.60719955)
+_left_wheel_percent_power = 0.25
+_right_wheel_percent_power = 0.30000000000000004
+use_random_color_syle_at_ready = false
+
+[node name="CameraViewDebug" parent="Arena/TwoWheelsCar/CameraPosition" parent_id_path=PackedInt32Array(408629191, 1949821170) index="0" unique_id=106694097]
+surface_material_override/0 = SubResource("ShaderMaterial_mmbol")
+
+[node name="UiLabMainTargetInScene" type="Node" parent="Arena/TwoWheelsCar" index="8" unique_id=1616937870 node_paths=PackedStringArray("_target")]
+script = ExtResource("40_m764b")
+_target = NodePath("..")
+metadata/_custom_type_script = "uid://bls3ss8xr7a4y"
+
+[node name="UiLabMainTargetInScene" type="Node" parent="Arena" index="7" unique_id=201073766 node_paths=PackedStringArray("_target")]
+script = ExtResource("40_m764b")
+_target = NodePath("../TwoWheelsCar")
+metadata/_custom_type_script = "uid://bls3ss8xr7a4y"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Arena" index="8" unique_id=26310605]
+visible = false
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Arena/CanvasLayer" index="0" unique_id=1588268828]
+anchors_preset = -1
+anchor_right = 0.29500002
+anchor_bottom = 0.11100001
+offset_right = 11.159973
+offset_bottom = 0.07199097
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="Arena/CanvasLayer/HBoxContainer" index="0" unique_id=1107484481]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ColorRect2" type="ColorRect" parent="Arena/CanvasLayer/HBoxContainer" index="1" unique_id=1041776305]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect" type="TextureRect" parent="Arena/CanvasLayer/HBoxContainer" index="2" unique_id=1862744867]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("ViewportTexture_vuonw")
+
+[node name="TextureRect2" type="TextureRect" parent="Arena/CanvasLayer/HBoxContainer" index="3" unique_id=803912060]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("ViewportTexture_vuonw")
+
+[node name="Control" type="Control" parent="Arena/CanvasLayer" index="1" unique_id=1876228107]
+layout_mode = 3
+anchor_right = 0.29900002
+anchor_bottom = 1.0
+offset_right = 3.5519714
+offset_bottom = -4.0
+
+[node name="PrefabShort128x64" parent="Arena/CanvasLayer/Control" index="0" unique_id=525735575 instance=ExtResource("41_2qhqx")]
+layout_mode = 1
+
+[node name="RunCodeEditWithTarget" parent="Arena/CanvasLayer/Control/PrefabShort128x64/Ratio Short 16x9/Hold16x9" parent_id_path=PackedInt32Array(525735575, 1083762807) index="0" unique_id=805216708]
+anchor_top = 0.104
+anchor_bottom = 1.0400001
+offset_top = 3.1759949
+offset_bottom = -2.2400513
+
+[node name="RatioDisplay2x1" parent="Arena/CanvasLayer/Control/PrefabShort128x64/Ratio Short 16x9/Hold16x9/HoldDisplay2x1" parent_id_path=PackedInt32Array(525735575, 1663556393) index="0" unique_id=993949072]
+visible = false
+
+[node name="UiLabTextSubmitAtReady" parent="Arena/CanvasLayer/Control/PrefabShort128x64/Code" parent_id_path=PackedInt32Array(525735575, 1831408484) index="0" unique_id=184630064]
+text = "extends Node
+
+@onready var array: Array[bool] = []
+var car:Node
+
+func _ready():
+	array.resize(128 * 64)
+	array.fill(false)
+	print(\"Hello 128x64\")
+
+func _on_received_target(target: Node):
+	print(\"Target:\", target)
+	car=target
+	car.set_wheels(1,1)
+	while (true):
+		await get_tree().create_timer(0.1).timeout
+		randomize_array()
+		car.print_text(array,\"Hello world\")
+		draw()
+		if car.has_method(\"set_wheels\"):
+			# car.set_wheels(randf_range(-1,1),randf_range(-1,1))
+			pass
+		
+
+func draw():
+		car.set_screen_128x64_to(array)
+func fill():
+	array.fill(true)
+	draw()
+
+func empty():
+	array.fill(false)
+	draw()
+
+func randomize_array():
+	for i in range(array.size()):
+		array[i] = randi() % 2 == 0
+	draw()"
+
+[node name="UiLabXrSetup" type="Node" parent="Arena" index="9" unique_id=1514539393]
+script = ExtResource("42_s0ih5")
+metadata/_custom_type_script = "uid://ticbi6uubof4"
+
+[node name="Student" type="Node3D" parent="Arena" index="10" unique_id=2051302166]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.83042467)
+
+[node name="StudentFromUrlNode" type="Node3D" parent="Arena/Student" index="0" unique_id=1625390386]
+
+[node name="UiLabWebPageDownloader" type="Node" parent="Arena/Student/StudentFromUrlNode" index="0" unique_id=294207831]
+script = ExtResource("43_ewoay")
+load_at_ready = true
+metadata/_custom_type_script = "uid://j0ypqbayu7qk"
+
+[node name="TwoWheelsCar" parent="Arena/Student/StudentFromUrlNode" index="1" unique_id=1102227447 instance=ExtResource("39_1abmh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1297952, 0.045632772, -2.0448236)
+_left_wheel_percent_power = 0.25
+_right_wheel_percent_power = 0.30000000000000004
+
+[node name="CameraViewDebug" parent="Arena/Student/StudentFromUrlNode/TwoWheelsCar/CameraPosition" parent_id_path=PackedInt32Array(1102227447, 1949821170) index="0" unique_id=106694097]
+surface_material_override/0 = SubResource("ShaderMaterial_kox4c")
+
 [connection signal="on_trigger_down" from="XROrigin3D/RightHand/FunctionGazePointer/GodotPlusListenToControllerTrigger" to="XROrigin3D/RightHand/FunctionGazePointer" method="_button_pressed"]
 [connection signal="on_trigger_up" from="XROrigin3D/RightHand/FunctionGazePointer/GodotPlusListenToControllerTrigger" to="XROrigin3D/RightHand/FunctionGazePointer" method="_button_released"]
-[connection signal="child_entered_tree" from="Demos" to="." method="_on_Demos_child_entered_tree"]
-[connection signal="child_exiting_tree" from="Demos" to="." method="_on_Demos_child_exiting_tree"]
 [connection signal="player_height_changed" from="SettingsUI" to="." method="_on_settings_ui_player_height_changed"]
 
 [editable path="XROrigin3D/LeftHand/LeftHand"]
 [editable path="XROrigin3D/LeftHand/LeftHand/Hand_low_L"]
 [editable path="XROrigin3D/RightHand/RightHand"]
 [editable path="XROrigin3D/RightHand/RightHand/Hand_low_R"]
+[editable path="Arena/Viewport2Din3D"]
+[editable path="Arena/TwoWheelsCar"]
+[editable path="Arena/CanvasLayer/Control/PrefabShort128x64"]
+[editable path="Arena/CanvasLayer/Control/PrefabShort128x64/Ratio Short 16x9/Hold16x9/RunCodeEditWithTarget"]
+[editable path="Arena/Student/StudentFromUrlNode/TwoWheelsCar"]
